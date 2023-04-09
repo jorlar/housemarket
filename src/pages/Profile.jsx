@@ -1,4 +1,6 @@
 import React from "react";
+import { getAuth } from "firebase/auth";
+import { useEffect, useState } from "react";
 
 const Profile = () => {
   return (
